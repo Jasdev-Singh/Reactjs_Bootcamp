@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Monotype Corsiva;
+}
+body {
+  padding: 0 11px;
+  background: #eee;
+}
+
+.headpart {
+  margin: auto -26px;
+  padding: 16px 30px;
+  background-color: blue;
+  color: whitesmoke;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 22px;
+  color: gray;
+  font-family: Calibri;
+}
+.contentpart {
+  box-shadow: 0 2px 4px #ccc;
+  padding: 10px;
+  margin: 16px;
+  width: 250px;
+  float: left;
+}
+.cnthead {
+  margin-top: 4px;
+  line-height: 25px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cntpar {
+  margin-top: 6px;
+}
